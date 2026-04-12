@@ -6,3 +6,6 @@
 Repositorio creado para la Actividad Inicial de la materia.
 El objetivo es aprender el flujo básico de trabajo con Git y GitHub,
 incluyendo el uso de ramas y Pull Requests.
+
+## Modificacion
+Creación de rama + modificacion del archivo README
