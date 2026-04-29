@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #1a1a1a;
+    background-color: #f0f0f0;
+    line-height: 1.7;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #0d0d0d;
+    margin: 12px 0 16px 0;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #222;
+    margin: 28px 0 12px 0;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 6px;
+}
+
+p {
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+a {
+    color: #c0392b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+button:hover {
+    background-color: #a93226;
+}
+
+#encabezado-sitio {
+    background-color: #111111;
+    padding: 14px 40px;
+}
+
+#formulario-suscripcion {
+    max-width: 860px;
+    margin: 40px auto;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    padding: 40px;
+}
+
+#formulario-suscripcion h2 {
+    color: #ffffff;
+    border-bottom-color: #444;
+}
+
+nav a {
+    color: #ffffff;
+    margin-right: 24px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+nav a:hover {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.cuerpo p {
+    font-size: 1rem;
+}
+
+fieldset label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #dddddd;
+}
+
+.noticia-principal {
+    max-width: 860px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border: 1px solid #ddd;
+}
+
+.encabezado-noticia {
+    margin-bottom: 24px;
+}
+
+.categoria {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #c0392b;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.bajada p {
+    font-size: 1.1rem;
+    color: #444;
+    border-left: 4px solid #c0392b;
+    padding-left: 18px;
+    margin: 20px 0;
+}
+
+.imagen-principal {
+    margin: 24px 0;
+}
+
+/* formulario */
+fieldset {
+    border: 1px solid #616161;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+legend {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #cccccc;
+    padding: 0 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    color: #f0f0f0;
+    margin-bottom: 8px;
+}
+
+/* footer */
+footer {
+    background-color: #111111;
+    color: #888888;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
