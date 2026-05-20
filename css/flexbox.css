@@ -1,0 +1,478 @@
+/* ================================
+   RESET
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================================
+   BASE — MOBILE FIRST
+================================ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+    background-color: #f2f2f2;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c0392b;
+}
+
+h2, h3, h4 {
+    line-height: 1.3;
+}
+
+/* ================================
+   HEADER
+================================ */
+#encabezado {
+    background-color: #111;
+    color: #fff;
+    padding: 0;
+    border-bottom: 4px solid #c0392b;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 4px;
+    text-align: center;
+}
+
+.nombre-diario {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.fecha, .slogan {
+    font-size: 12px;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-mobile {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 16px;
+    border-top: 1px solid #333;
+}
+
+.hamburguesa {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ================================
+   CONTENEDOR PRINCIPAL
+================================ */
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ================================
+   NOTICIA PRINCIPAL
+================================ */
+.noticia-destacada {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.noticia-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia-principal img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.noticia-principal-texto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.noticia-principal-texto h2 {
+    font-size: 1.4rem;
+    color: #111;
+}
+
+.noticia-principal-texto p {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.leer-mas {
+    color: #c0392b;
+    font-weight: bold;
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+/* ================================
+   TAGS
+================================ */
+.tag {
+    font-size: 11px;
+    font-weight: bold;
+    color: #c0392b;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* ================================
+   TÍTULO DE SECCIÓN
+================================ */
+.titulo-seccion {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #c0392b;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+/* ================================
+   GRILLA NOTICIAS SECUNDARIAS
+================================ */
+.grilla-noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.noticia-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.noticia-card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-texto {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card-texto h4 {
+    font-size: 0.95rem;
+}
+
+.card-texto a {
+    color: #111;
+}
+
+.card-texto a:hover {
+    color: #c0392b;
+}
+
+/* ================================
+   PUBLICIDAD BANNER
+================================ */
+.publicidad-banner {
+    background-color: #e8e8e8;
+    border: 2px dashed #bbb;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.publicidad-banner p {
+    font-size: 11px;
+    font-weight: bold;
+    color: #999;
+    letter-spacing: 2px;
+}
+
+.publicidad-banner span {
+    font-size: 13px;
+    color: #777;
+}
+
+/* ================================
+   BREVES
+================================ */
+.lista-breves {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.breve {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.breve a {
+    font-size: 0.9rem;
+    color: #222;
+}
+
+.breve a:hover {
+    color: #c0392b;
+}
+
+/* ================================
+   PUBLICIDAD LATERAL
+================================ */
+.publicidad-lateral {
+    display: none;
+}
+
+.pub-box {
+    background-color: #e8e8e8;
+    border: 2px dashed #bbb;
+    padding: 20px;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.pub-box p {
+    font-size: 11px;
+    font-weight: bold;
+    color: #999;
+    letter-spacing: 2px;
+}
+
+/* ================================
+   FOOTER
+================================ */
+#pie-pagina {
+    background-color: #111;
+    color: #aaa;
+    padding: 30px 16px 16px;
+    margin-top: 24px;
+}
+
+.footer-contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-col h4 {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.footer-col a {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.footer-col a:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #333;
+    padding-top: 16px;
+}
+.cines {
+    font-size: 11px;
+    color: #888;
+    font-style: italic;
+    margin-top: 6px;
+    display: block;
+}
+
+/* ================================
+   TABLET  (≥ 768px)
+================================ */
+@media (min-width: 768px) {
+
+    .header-top {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 16px 24px;
+        text-align: left;
+    }
+
+    .contenedor-principal {
+        padding: 24px;
+    }
+
+    .noticia-principal {
+        flex-direction: row;
+    }
+
+    .noticia-principal img {
+        width: 50%;
+        height: auto;
+    }
+
+    .noticia-principal-texto {
+        width: 50%;
+        padding: 24px;
+    }
+
+    .noticia-principal-texto h2 {
+        font-size: 1.6rem;
+    }
+
+    .grilla-noticias {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .noticia-card {
+        flex: 1 1 calc(50% - 8px);  /* 2 columnas */
+    }
+
+    .lista-breves {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .breve {
+        flex: 1 1 calc(50% - 16px);
+        border-bottom: none;
+        border-left: 3px solid #c0392b;
+        padding-left: 12px;
+        padding-bottom: 0;
+    }
+
+    .footer-contenido {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+/* ================================
+   DESKTOP  (≥ 1024px)
+================================ */
+@media (min-width: 1024px) {
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0;
+        background-color: #1a1a1a;
+        border-top: 1px solid #333;
+    }
+
+    .nav-desktop a {
+        color: #ddd;
+        padding: 12px 18px;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        transition: background 0.2s;
+    }
+
+    .nav-desktop a:hover {
+        background-color: #c0392b;
+        color: #fff;
+    }
+
+    .noticia-principal img {
+        height: 360px;
+        object-fit: cover;
+    }
+
+    .noticia-principal-texto h2 {
+        font-size: 1.9rem;
+    }
+
+    .noticia-card {
+        flex: 1 1 calc(33.333% - 12px);
+    }
+
+    .seccion-breves {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .publicidad-lateral {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 300px;
+        flex-shrink: 0;
+    }
+
+    .contenedor-principal {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        grid-template-areas:
+            "destacada    destacada"
+            "secundarias  secundarias"
+            "banner       banner"
+            "breves       lateral";
+        gap: 24px;
+        align-items: start;
+    }
+
+    .noticia-destacada   { grid-area: destacada; }
+    .seccion-secundarias { grid-area: secundarias; }
+    .publicidad-banner   { grid-area: banner; }
+    .seccion-breves      { grid-area: breves; }
+    .publicidad-lateral  { grid-area: lateral; }
+}

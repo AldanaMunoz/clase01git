@@ -22,3 +22,6 @@ Redefinición de estructura del proyecto, agregado de estilo de la pagina. En la
 ## Clase 5
 Por un error mio se me borraron los archivos anteriores, igual los pude recuperar en su totalidad. 
 Los archivos trabajados en esta clase son html/index3 y css/styleModelBox.
+
+## Clase 6
+Flexbox.css e index4.html
