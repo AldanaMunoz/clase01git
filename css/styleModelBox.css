@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Mobile */
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 16px;
+    color: #1a1a1a;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: #0d0d0d;
+    margin: 10px 0 14px 0;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #222;
+    margin: 20px 0 10px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #ddd;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+a {
+    color: #c0392b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    width: 100%;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+button:hover {
+    background-color: #a93226;
+}
+
+
+#encabezado-sitio {
+    background-color: #111111;
+    padding: 12px 16px;
+    border-bottom: 3px solid #c0392b;
+}
+
+.nav-contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.logo-diario {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: #cccccc;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin-right: 12px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #e74c3c;
+}
+
+
+.contenedor-principal {
+    padding: 16px;
+}
+
+
+.layout-dos-columnas {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.noticia-principal {
+    background-color: #ffffff;
+    padding: 20px 16px;
+    border: 1px solid #ddd;
+}
+
+.encabezado-noticia {
+    margin-bottom: 20px;
+}
+
+.categoria {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #c0392b;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.bajada {
+    font-size: 1rem;
+    color: #444;
+    font-style: italic;
+    border-left: 4px solid #c0392b;
+    padding-left: 14px;
+    margin: 14px 0;
+}
+
+.autor {
+    font-size: 13px;
+    color: #777;
+    font-family: Arial, sans-serif;
+}
+
+.fecha {
+    color: #999;
+}
+
+.imagen-principal {
+    margin: 16px 0;
+}
+
+.cuerpo p {
+    font-size: 1rem;
+}
+
+
+#formulario-suscripcion {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    padding: 24px 20px;
+    border: 1px solid #333;
+}
+
+#formulario-suscripcion h2 {
+    color: #ffffff;
+    border-bottom-color: #444;
+}
+
+#formulario-suscripcion p {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-family: Arial, sans-serif;
+    margin-bottom: 16px;
+}
+
+fieldset {
+    border: 1px solid #444;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+legend {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #cccccc;
+    padding: 0 8px;
+}
+
+fieldset label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #dddddd;
+}
+
+
+input[type="checkbox"] + label {
+    display: inline;
+    margin-left: 6px;
+}
+
+input[type="checkbox"] {
+    margin-top: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    color: #f0f0f0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+#pie-pagina {
+    background-color: #111111;
+    color: #888888;
+    text-align: center;
+    padding: 20px 16px;
+    margin-top: 24px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .nav-contenedor {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #encabezado-sitio {
+        padding: 14px 30px;
+    }
+
+    .contenedor-principal {
+        padding: 24px 30px;
+    }
+
+    .noticia-principal {
+        padding: 28px 24px;
+    }
+
+    .bajada {
+        font-size: 1.05rem;
+    }
+
+    .cuerpo p {
+        text-align: justify;
+    }
+
+    #formulario-suscripcion {
+        padding: 30px 28px;
+    }
+}
+
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+    body {
+        font-size: 18px;
+        background-color: #ebebeb;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    #encabezado-sitio {
+        padding: 16px 60px;
+    }
+
+    .contenedor-principal {
+        max-width: 1100px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    
+    .layout-dos-columnas {
+        flex-direction: row;     
+        align-items: flex-start;  
+        gap: 30px;
+    }
+
+    
+    .noticia-principal {
+        flex: 2;                  
+        padding: 36px 32px;
+    }
+
+    
+    #formulario-suscripcion {
+        flex: 1;                  
+        padding: 30px 24px;
+        position: sticky;        
+        top: 20px;
+    }
+}
