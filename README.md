@@ -25,3 +25,13 @@ Los archivos trabajados en esta clase son html/index3 y css/styleModelBox.
 
 ## Clase 6
 Flexbox.css e index4.html
+
+## Clase 7
+Parcial (Insuficiente)
+
+## Clase 8
+Introducción a JavaScript
+
+## Clase 9
+Elegi cambiar la estructura de todo el repositorio para poder diferenciar los trabajos hechos por clase.
+Creación de formulario de suscripción con validaciones DOM
